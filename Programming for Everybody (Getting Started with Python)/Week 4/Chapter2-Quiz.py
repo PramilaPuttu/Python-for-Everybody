@@ -1,104 +1,106 @@
 Question 1
-When Python is running in the interactive mode and displaying the chevron prompt (>>>) - what question is Python asking
+Which of the following is a comment in Python?
 
-o	What would you like to do?
-o	What Python script would you like me to run?
-o	What is the next machine language instruction to run?
-o	What is your favourite color?
+* This is a test
+// This is a test
+# This is a test
+/* This is a test */
 
-Answer: What would you like to do?
+
+Answer: # This is a test
 
 Question 2
-What will the following program print out:
->>> x = 15
->>> x = x + 5
->>> print(x)
+What does the following code print out?
+print "123" + "abc"
 
-o	20
-o	5
-o	15
-o	"print x"
-o	x + 5
+This is a syntax error because you cannot add strings
+hello world
+123abc
+123+abc 
 
-Answer: 20
+Answer: 123abc
 
 Question 3
-Python scripts (files) have names that end with:
+Which of the following is a bad Python variable name?
 
-o	.py
-o	.png
-o	.exe
-o	.doc
+spam23
+SPAM23
+23spam
+spam_23
 
-Answer: .py
+Answer: 23spam
 
 Question 4
-Which of these words is a reserved word in Python ?
+Which of the following is not a Python reserved word?
+spam
+else
+for
+if
 
-o	for
-o	names
-o	pizza
-o	payroll
-
-Answer: for/if/break
+Answer: spam
 
 Question 5
-What is the proper way to say “good-bye” to Python?
+What does the following statement do?
+x = x + 2
 
-o	while
-o	quit()
-o	#EXIT
-o	// stop
+Exit the program
+This would fail as it is a syntax error
+Increase the speed of the program by a factor of 2
+Retrieve the current value for x, add two to it and put the sum back into x
 
-Answer: quit()
+Answer: Retrieve the current value for x, add two to it and put the sum back into x
 
 Question 6
-Which of the parts of a computer actually executes the program instructions?
+Which of the following elements of a mathematical expression in Python is evaluated first?
 
-o	Input/Output Devices
-o	Main Memory
-o	Central Processing Unit
-o	Secondary Memory
+Parenthesis ( )
+Subtraction -
+Multiplication *
+Addition +
 
-Answer: Central Processing Unit
+Answer: Parenthesis ( )
 
 Question 7
-What is "code" in the context of this course?
+What is the value of the following expression
+42 % 10
+Hint - the "%" is the remainder operator
 
-o	A way to encrypt data during World War II
-o	A sequence of instructions in a programming language
-o	A set of rules that govern the style of programs
-o	A password we use to unlock Python features
+0.42
+420
+1042
+2
 
-Answer: A sequence of instructions in a programming language
+Answer: 2
+
 
 Question 8
-A USB memory stick is an example of which of the following components of computer architecture?
+What is the value in x after the following statement executes:
+x = 1 + 2 * 3 - 8 / 4
 
-o	Output Device
-o	Main Memory
-o	Secondary Memory
-o	Central Processing Unit
+5
+4
+15
+8
 
-Answer: Secondary Memory
+Answer: 5
 
 Question 9
-What is the best way to think about a "Syntax Error" while programming?
+What value be in the variable x when the following statement is executed
+x = int(98.6)
 
-o	The computer did not understand the statement that you entered
-o	The computer needs to have its software upgraded
-o	The computer has used GPS to find your location and hates everyone from your town
-o	The computer is overheating and just wants you to stop to let it cool down
+100
+99
+98
+6
 
-Answer: The computer did not understand the statement that you entered
+Answer: 98
 
 Question 10
-Which of the following is not one of the programming patterns covered in Chapter 1?
+What does the Python raw_input() function do?
 
-o	Sequential Steps
-o	Repeated Steps
-o	Conditional Steps
-o	Random steps
+Connect to the network and retrieve a web page.
+Take a screen shot from an area of the screen
+Pause the program and read data from the user
+Read the memory of the running program
 
-Answer: Random steps
-
+Answer: Pause the program and read data from the user 
